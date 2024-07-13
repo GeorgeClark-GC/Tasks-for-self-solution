@@ -21,5 +21,12 @@ public class Main {
         int figureThree = (numOne - figureOne * 100 - figureTwo * 10);
         sum = figureOne + figureTwo + figureThree;
         System.out.println("Результат сложения цифр первого, второго и третьего разрядов числа " + numOne + ": " + sum);
+        System.out.println("Task 4");
+        int costFlowers = 4899;
+        int costPostcard = 157;
+        int discount = 10;
+        int sumDiscount = (costFlowers + costPostcard)/discount;
+        int finalCost = costFlowers + costPostcard - sumDiscount;
+        System.out.println("Суммарная стоимость сотставила " + finalCost + " рублей, с учётом скидки " + sumDiscount + " рублей.");
     }
 }
