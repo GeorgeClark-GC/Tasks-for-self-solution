@@ -5,14 +5,21 @@ public class Main {
         System.out.println("Task 1");
         int numOne = 47;
         int numTwo = 13;
-        int division = numOne/numTwo;
-        int remainder = numOne%numTwo;
+        int division = numOne / numTwo;
+        int remainder = numOne % numTwo;
         System.out.println("Результат деления числа " + numOne + " на " + numTwo + ": " + division + " и " + remainder + " в остатке");
         System.out.println("Task 2");
-        numOne = 36;
-        int figureOne = numOne/10;
-        int figureTwo = numOne - figureOne*10;
+        numOne = 44;
+        int figureOne = numOne / 10;
+        int figureTwo = numOne - figureOne * 10;
         int sum = figureOne + figureTwo;
         System.out.println("Результат сложения цифр первого и второго разрядов числа " + numOne + ": " + sum);
+        System.out.println("Task 3");
+        numOne = 345;
+        figureOne = numOne / 100;
+        figureTwo = (numOne - figureOne * 100) / 10;
+        int figureThree = (numOne - figureOne * 100 - figureTwo * 10);
+        sum = figureOne + figureTwo + figureThree;
+        System.out.println("Результат сложения цифр первого, второго и третьего разрядов числа " + numOne + ": " + sum);
     }
 }
