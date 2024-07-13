@@ -25,8 +25,34 @@ public class Main {
         int costFlowers = 4899;
         int costPostcard = 157;
         int discount = 10;
-        int sumDiscount = (costFlowers + costPostcard)/discount;
+        int sumDiscount = (costFlowers + costPostcard) / discount;
         int finalCost = costFlowers + costPostcard - sumDiscount;
-        System.out.println("Суммарная стоимость сотставила " + finalCost + " рублей, с учётом скидки " + sumDiscount + " рублей.");
+        System.out.println("Суммарная стоимость составила " + finalCost + " рублей, с учётом скидки " + sumDiscount + " рублей.");
+        System.out.println("Task 5");
+        System.out.println("Subtask a");
+        int costOranges = 73;
+        int costBananas = 95;
+        double discountOranges = 0.15;
+        int weightOranges = 10;
+        int weightBananas = 2;
+        double totalCost = weightOranges * costOranges * discountOranges + weightBananas * costBananas;
+        System.out.println("Суммарная стоимость покупки с учётом скидки составила: " + totalCost + " рублей.");
+        System.out.println("Subtask b");
+        int costChampagne = 2870;
+        int costBread = 27;
+        double discountChampange = 0.5;
+        int countChampagne = 7;
+        int countBread = 1;
+        totalCost = costChampagne*countChampagne*discountChampange+costBread*countBread;
+        System.out.println("Суммарная стоимость покупки с учётом скидки составила: " + totalCost + " рублей.");
+        System.out.println("Subtask с");
+        int costChampignons = 436;
+        int costWhiteMushrooms = 578;
+        double discountWhiteMushrooms = 0.05;
+        double weightChampignons = 2.5;
+        double weightWhiteMushrooms = 3.75;
+        totalCost = costChampignons*weightChampignons+costWhiteMushrooms*weightWhiteMushrooms*discountWhiteMushrooms;
+        System.out.println("Суммарная стоимость покупки с учётом скидки составила: " + totalCost + " рублей.");
+        System.out.println("Task 6");
     }
 }
