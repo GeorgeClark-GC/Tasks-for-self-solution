@@ -43,7 +43,7 @@ public class Main {
         double discountChampange = 0.5;
         int countChampagne = 7;
         int countBread = 1;
-        totalCost = costChampagne*countChampagne*discountChampange+costBread*countBread;
+        totalCost = costChampagne * countChampagne * discountChampange + costBread * countBread;
         System.out.println("Суммарная стоимость покупки с учётом скидки составила: " + totalCost + " рублей.");
         System.out.println("Subtask с");
         int costChampignons = 436;
@@ -51,8 +51,13 @@ public class Main {
         double discountWhiteMushrooms = 0.05;
         double weightChampignons = 2.5;
         double weightWhiteMushrooms = 3.75;
-        totalCost = costChampignons*weightChampignons+costWhiteMushrooms*weightWhiteMushrooms*discountWhiteMushrooms;
+        totalCost = costChampignons * weightChampignons + costWhiteMushrooms * weightWhiteMushrooms * discountWhiteMushrooms;
         System.out.println("Суммарная стоимость покупки с учётом скидки составила: " + totalCost + " рублей.");
         System.out.println("Task 6");
+        double x = 0.4;
+        double y = 0.87;
+        double dataOne = 11 * x + y;
+        double dataTwo = (x + 10 * y) - 15 * (x / y);
+        System.out.println("Результаты расчётов: " + dataOne + "; " + dataTwo);
     }
 }
